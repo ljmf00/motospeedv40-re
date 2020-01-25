@@ -10,6 +10,8 @@ See more, [here](res/README.md).
 - **Manufacturer:** Mototech Technology Group Ltd
 - **Optical Sensor:** Avago ADNS-3050 ([Datasheet](https://media.digikey.com/pdf/data%20sheets/avago%20pdfs/adns-3050.pdf))
 - **MCU:** Holtek HT82F553 8-bit (No Datasheet)
+- **Firmware:** [Here](http://www.motospeed.cc/upfile/20190925155719_430.zip)
+- **Driver:** [Here](http://www.motospeed.cc/upfile/download/MotoSpeed%20Gaming%20MouseV40.zip)
 
 ## Protocol
 
