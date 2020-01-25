@@ -48,10 +48,10 @@ Motospeed V40 Mouse Reverse Engineering
 |06  |     1500|
 |07  |     1750|
 |08  |     2000|
-|09  |     2500|
-|0A  |     3000|
-|0B  |     3500|
-|0C  |     4000|
+|25  |     2500|
+|26  |     3000|
+|27  |     3500|
+|28  |     4000|
 
 **NOTE:** To disable the DPI profile, do a bitwise OR with the value and `0x80`, which in practice is the most significant bit. (e.g.:
 enabled profile 1 is `0x01` and disabled profile 1 is `0x81`).
