@@ -15,6 +15,9 @@ See more, [here](res/README.md).
 
 ## Protocol
 
+To achieve this protocol description, I got some packets from the Windows
+driver using Wireshark. See [here](packets/README.md).
+
 ### Commands
 
 #### Command `0x28`: Init
