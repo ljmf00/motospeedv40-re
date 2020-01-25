@@ -1,6 +1,10 @@
 # motospeedv40-re
 Motospeed V40 Mouse Reverse Engineering
 
+![Mouse picture](res/mouse.jpg)
+
+See more, [here](res/README.md).
+
 ## Specifications
 
 - **Manufacturer:** Mototech Technology Group Ltd
