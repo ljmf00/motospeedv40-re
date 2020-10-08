@@ -20,6 +20,9 @@ driver using Wireshark. See [here](packets/README.md).
 
 ### Commands
 
+HID Feature report packets size: 8 bytes
+HID Output report packets size: 32 bytes
+
 #### Command `0x28`: Init
 
 - Activate DPI triggers: `{0xb2, 0x0d, 0x08, 0x78, 0x32, 0xe6, 0xee}`
@@ -28,7 +31,15 @@ driver using Wireshark. See [here](packets/README.md).
 
 - Change LED colors: `{0x95, 0xf5, 0x08, 0x80, 0x95, 0xa6, 0x36}`
 
-    Structure: 24-bit color for each profile, with 4 total profiles.
+    Structure: Next output report packet, 24-bit color for each profile, with 4
+    total profiles.
+
+- Change DPI: `{0x94, 0x95, 0x08, 0x58, 0x9d, 0xa6, 0xb6}`
+
+    Structure: Next output report packet, 1 byte for each profile, with 4 total
+    profiles.
+
+- Change Report Rate: `{0x94, 0xf5, 0x08, 0xb8, 0x1d, 0xa6, 0x76}`
 
 ### Mouse triggers
 
